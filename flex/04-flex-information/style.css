@@ -12,6 +12,22 @@ img {
   font-weight: 900;
 }
 
+.sections{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.images-collection{
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.one-image{
+  text-align: center;
+  max-width: 200px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
